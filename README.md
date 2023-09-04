@@ -1,5 +1,5 @@
 # Smoothscroll-for-windows
-![python version required](https://img.shields.io/static/v1?label=python&message=v3.11&color=0374b4&link=https://github.com/re1von/Smoothscroll-for-windows)  
+![python version required](https://img.shields.io/static/v1?label=python&message=v3.10&color=0374b4&link=https://github.com/re1von/Smoothscroll-for-windows)  
 A free & simple script in python allow your mouse wheel to scroll smoothly on Windows 10/11.  
 ![preview](https://github.com/re1von/Smoothscroll-for-windows/blob/main/project-assets/preview.gif)
 

@@ -9,7 +9,7 @@ A free & simple script in python allow your mouse wheel to scroll smoothly on Wi
 - Individual configuration for each app with the possibility of disabling it.
 
 ## Requirements
-- python >= 3.11
+- python >= 3.10
 - requirements.txt  
   - `python -m pip install -r requirements.txt`
 

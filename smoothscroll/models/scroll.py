@@ -1,3 +1,4 @@
+from enum import IntEnum
 import re
 from time import perf_counter
 from typing import Optional, Union, Type, Literal, Iterable
@@ -6,6 +7,10 @@ from win32con import VK_SHIFT, VK_CONTROL, VK_MENU
 
 from . import EasingFunction
 
+class Key(IntEnum):
+    VK_SHIFT
+    VK_CONTROL
+    VK_MENU
 
 class ScrollConfig:
     def __init__(
@@ -19,7 +24,7 @@ class ScrollConfig:
             pulse_scale: Union[int, float],
             ease: Type[EasingFunction],
             inverted: bool,
-            horizontal_scroll_key: Optional[Literal[VK_SHIFT, VK_CONTROL, VK_MENU]] = None
+            horizontal_scroll_key: Optional[Key] = None
     ):
         self.distance = distance
         self.acceleration = acceleration

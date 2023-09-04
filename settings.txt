@@ -1,0 +1,7 @@
+distance=120
+acceleration=1.0
+opposite_acceleration=1.2
+acceleration_delta=70
+acceleration_max=14
+duration=650
+pulse_scale=7
